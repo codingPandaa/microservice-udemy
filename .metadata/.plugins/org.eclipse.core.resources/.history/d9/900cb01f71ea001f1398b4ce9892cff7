@@ -1,0 +1,5 @@
+spring.application.name=organization-service
+
+spring.datasource.url=jdbc:mysql://localhost:3306/organization_db
+spring.datasource.username=root
+spring.datasource.password=Swap@123

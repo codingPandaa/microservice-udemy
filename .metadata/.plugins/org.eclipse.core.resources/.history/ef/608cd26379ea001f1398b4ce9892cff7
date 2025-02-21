@@ -1,0 +1,8 @@
+package com.ems.organizationservice.service;
+
+import com.ems.organizationservice.dto.OrganizationDto;
+
+public class OrganizationService {
+
+	OrganizationDto createOrganzation(OrganizationDto organizationDto);
+}

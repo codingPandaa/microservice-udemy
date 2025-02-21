@@ -1,0 +1,19 @@
+package com.ems.organizationservice.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ems.organizationservice.dto.OrganizationDto;
+import com.ems.organizationservice.service.OrganizationService;
+
+import lombok.AllArgsConstructor;
+
+@RestController
+@AllArgsConstructor
+public class OrganizationController {
+
+	private OrganizationService organizationService;
+	
+	public ResponseEntity<OrganizationDto>
+	
+}

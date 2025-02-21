@@ -1,0 +1,9 @@
+package com.ems.organizationservice.entity;
+
+public class Organization {
+
+	private Long id;
+	private String organizationName;
+	private String organizationDescription;
+	private String organizationCode;
+}

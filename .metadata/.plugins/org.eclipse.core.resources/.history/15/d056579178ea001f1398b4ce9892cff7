@@ -1,0 +1,13 @@
+package com.ems.organizationservice.mapper;
+
+import com.ems.organizationservice.dto.OrganizationDto;
+import com.ems.organizationservice.entity.Organization;
+
+public class OrganizationMapper {
+
+	public static OrganizationDto mapToDto(Organization organization) {
+		new OrganizationDto(organization.getId(), organization.getOrganizationName(),
+				organization.getOrganizationDescription(), organization.getOrganizationCode(),
+				organization.getCreatedDate());
+	}
+}

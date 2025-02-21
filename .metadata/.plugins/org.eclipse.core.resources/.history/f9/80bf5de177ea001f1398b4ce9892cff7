@@ -1,0 +1,5 @@
+package com.ems.organizationservice.repo;
+
+public interface OrganizationRepo {
+
+}

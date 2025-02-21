@@ -1,0 +1,13 @@
+package com.ems.organizationservice.service.impl;
+
+import com.ems.organizationservice.dto.OrganizationDto;
+import com.ems.organizationservice.service.OrganizationService;
+
+public class OrganizationServiceImpl implements OrganizationService {
+
+	@Override
+	public OrganizationDto createOrganzation(OrganizationDto organizationDto) {
+		return null;
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.ems.organizationservice.entity;
+
+import java.time.LocalDateTime;
+
+public class Organization {
+
+	private Long id;
+	private String organizationName;
+	private String organizationDescription;
+	private String organizationCode;
+	private LocalDateTime createdDate;
+}

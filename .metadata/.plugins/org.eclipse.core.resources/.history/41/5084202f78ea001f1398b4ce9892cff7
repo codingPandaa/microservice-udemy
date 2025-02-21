@@ -1,0 +1,5 @@
+package com.ems.organizationservice.dto;
+
+public class OrganizationDto {
+
+}

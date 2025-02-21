@@ -1,0 +1,5 @@
+package com.ems.organizationservice.entity;
+
+public class Organization {
+
+}

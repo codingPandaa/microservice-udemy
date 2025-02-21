@@ -1,0 +1,5 @@
+package com.ems.organizationservice.mapper;
+
+public class OrganizationMapper {
+
+}
